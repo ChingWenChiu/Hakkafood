@@ -1,0 +1,322 @@
+.pink{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(230, 159, 125);
+    text-align: center;
+    background-image: url(圖片12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    opacity: 0.9;
+    
+}
+
+.pink p {
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.text1{
+    font-size: 36px;
+    margin-top: 12%;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.text2{
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+.white{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.black{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%; 
+    margin-top: 5%;
+}
+
+.asshole h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 250;
+}
+
+/* .asshole:hover{
+    box-shadow: 5px 5px 15px rgb(149, 149, 149);
+} */
+
+.white a {
+    
+}
+
+.img1{
+  
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20%;
+    color: black;
+    word-spacing: 390px;
+}
+
+.img2{
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/*navbar css*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "simsun";
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(138, 160, 190);
+    padding: 8px;
+    z-index: 2;
+}
+
+header h1{
+    display: inline;
+    font-size: 25px;
+    margin-left: 25px;
+    color:white;
+}
+
+nav{
+    float: right;
+    margin-right: 50px;
+
+}
+
+#active{
+    color:#e4bdbd;
+}
+
+#home{
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    border-left: 2px solid white;
+    padding:0 40px;
+    transition: 0.3s;
+}
+
+nav a:nth-of-type(5){
+    border-right: 2px solid white;
+}
+
+nav a:hover{
+    color:#555555;
+}
+
+.icon {
+    display: none;
+}
+
+#closebtn{
+    display: none;
+    position: relative;
+    font-size: 30px;
+}
+
+/*footer css*/
+
+footer{
+    height: 25vh;
+    background-color:#8aa0be ;
+    overflow: hidden;
+    padding:50px 100px;
+}
+
+footer p{
+    color: white;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+}
+
+.RL{
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 200px;
+}
+
+.RL a{
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.RL a:hover{
+    color:#555;
+}
+
+#logo2{
+    position: absolute;
+    right: 200px;
+    width: 3%;
+}
+
+/*響應式 css*/
+
+@media screen and (max-width:1000px) {
+    
+    header h1{
+        position: relative;
+        top:5px;
+    }
+
+    .navbar{
+        display: none;
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #closebtn{
+        border: none;
+    }
+
+    .icon{
+        display: inline;
+        color: white;
+        float: right;
+        margin-right: 20px;
+    }
+
+    #navbar {
+        height: 100vh;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+      }
+
+      .navbar a{
+        display: block;
+        border: none;
+        padding: 10px;
+        margin-top:80px;
+        font-size: 25px;
+      }
+
+      .navbar a:nth-of-type(5){
+        border: none;
+      }
+
+      footer p{
+          position: relative;
+          top:90px;
+      }
+
+      .RL{
+          float: left;
+          bottom: 30px;
+          right: 0;
+          left: 150px;
+      }
+
+      #logo2{
+          width: 5%;
+          top:310vh;
+          right: 200px;
+      }
+}
+
+@media screen and (max-width:700px) {
+
+    #logo2{
+        width: 7%;
+        top:308vh;
+        right: 100px;
+    }
+
+    .RL{
+        left: 50px;
+    }
+
+    footer{
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #logo2{
+        width: 20%;
+        top:322vh;
+    }
+
+    footer{
+        padding: 0;
+    }
+    
+    footer p{
+        top:130px;
+        padding-left: 10px;
+    }
+
+    .RL{
+        bottom: 20px;
+        left: 50px;
+        
+    }
+
+    #logo2{
+        width: 12%;
+        top:307vh;
+        right: 50px;
+    }
+}
