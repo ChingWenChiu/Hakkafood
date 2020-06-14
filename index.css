@@ -15,7 +15,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "simsun";
-    /* font-family: 'Noto Serif TC', serif; */
 }
 
 
@@ -46,8 +45,7 @@ header h1{
 
 nav{
     float: right;
-    margin-right: 50px;
-
+    margin-right: 25px;
 }
 
 #active{
@@ -127,8 +125,6 @@ article{
     padding: 8px;
     text-decoration: none;
     transition: 0.5s;
-    position: absolute;
-    top: 0;
 }
 
 #know:hover{
@@ -174,6 +170,7 @@ article{
 
 #row2{
     margin: 20px 12.5vw 0;
+    position: relative;
 }
 
 .section2 h3{
@@ -225,6 +222,11 @@ article{
     font-weight: 300;
 }
 
+.down{
+    position: absolute;
+    bottom: 100px;
+}
+
 #down{
     background-color: white;
     width: 45px;
@@ -232,10 +234,10 @@ article{
     color: black;
     font-size: 40px;
     text-decoration: none;
-    position: absolute;
-    top:185vh;
     transition: 0.3s;
     text-align: center;
+    position: relative;
+    left: 75vw;
 }
 
 
@@ -378,19 +380,18 @@ footer p{
     color: white;
     font-weight: 400;
     position: relative;
-    top: 20px;
 }
 
 .RL{
-    float: right;
     position: relative;
     bottom: 50px;
-    right: 200px;
+    margin-top: 2%;
+    left: 50px;
 }
 
 .RL a{
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-right: 20px;
     color: white;
     text-decoration: none;
@@ -405,8 +406,8 @@ footer p{
 #logo2{
     position: absolute;
     right: 200px;
-    top:310vh;
-    width: 3%;
+    top:308vh;
+    width: 4%;
 }
 
 /* --------------------------響應------------------------------- */
@@ -473,7 +474,7 @@ footer p{
         display: block;
         border: none;
         padding: 10px;
-        margin-top:80px;
+        margin-top:10%;
         font-size: 25px;
       }
 
@@ -492,16 +493,8 @@ footer p{
     .smallp{
         width: 60%;
     }
-
-    footer p{
-        position: relative;
-        top:90px;
-    }
-
       .RL{
           float: left;
-          bottom: 30px;
-          right: 0;
           left: 150px;
       }
 
@@ -598,6 +591,28 @@ footer p{
 }
 
 @media screen and (max-width:400px) {
+    .navbar a{
+        font-size: 20px;
+    }
+
+    .know{
+        height: 18%;
+    }
+
+    article{
+        margin-top: 30%;
+    }
+
+    .bigp{
+        line-height: 1.8em;
+        font-size: 25px;
+    }
+
+    .smallp{
+        margin-top: 0;
+        line-height: 1.8em;
+    }
+
     .blue{
         width: 60%;
     }
@@ -619,40 +634,6 @@ footer p{
     }
 
     #logo2{
-        width: 20%;
-        top:322vh;
-    }
-
-    article{
-        margin-top: 30%;
-    }
-
-    .bigp{
-        line-height: 1.8em;
-        font-size: 25px;
-    }
-
-    .smallp{
-        margin-top: 0;
-        line-height: 1.8em;
-    }
-
-    footer{
-        padding: 0;
-    }
-    
-    footer p{
-        top:130px;
-        padding-left: 10px;
-    }
-
-    .RL{
-        bottom: 20px;
-        left: 50px;
-        
-    }
-
-    #logo2{
         width: 12%;
         top:307vh;
         right: 50px;
@@ -671,4 +652,84 @@ footer p{
         position: relative;
         top: 5vh;
     }
+
+    .section2 h3{
+        margin: 20% 0 0 0;
+    }
+
+    .row{
+        margin: 110px 8vw 90px;
+    }
+
+    .card{
+        height: 150px;
+    }
+
+    #row2{
+        margin: 0 8vw;
+        position: relative;
+    }
+
+    #row2_h3{
+        margin-top: 52vh;
+    }
+
+    .down{
+        bottom: 50px;
+    }
+
+    .qabox{
+        height: 75vh;
+        margin-top: 40px;
+        padding-top: 15px;
+    }
+
+    .question{
+        margin: 0 auto;
+    }
+
+    .question h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .answer p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .answer img{
+        width: 30px;
+    }
+
+    #decobox2{
+        margin-top: 0;
+    }
+
+    .next{
+        position: relative;
+        bottom:-55px;
+    }
+
+    footer{
+        padding: 0;
+    }
+    
+    footer p{
+        padding-left: 10px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .RL{
+        top: 12px;
+        left: 50px;
+        float: none;
+    }
+
+    .RL a{
+        font-size: 15px;
+    }
+
+    
 }
