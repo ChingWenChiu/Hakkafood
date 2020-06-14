@@ -113,24 +113,6 @@ footer p{
     width: 3%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 四炆色塊 */
 .main {
     position: relative;
@@ -138,7 +120,7 @@ footer p{
     display: block;
     padding: 200px 200px 200px 200px;
     text-align: center;
-    background-image: url(飲品.png);
+    background-image: url(飲品.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;

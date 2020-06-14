@@ -97,17 +97,20 @@ article{
     color: white;
     font-weight: 600;
     letter-spacing: 10px;
+    line-height: 2em;
 }
 
 .smallp{
     font-size: 20px;
     color: rgb(233, 233, 233);
     margin-left: 50px;
-    line-height: 1.5;
+    line-height: 2em;
+    font-weight: 500;
+    width: 40%;
 }
 
 .know{
-    height: 100px;
+    height: 12%;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -120,11 +123,12 @@ article{
     font-size: 18px;
     border: 2px solid white;
     border-radius: 20px;
-    width: 200px;
-    text-align: center;
+    width: 125px;
     padding: 8px;
     text-decoration: none;
     transition: 0.5s;
+    position: absolute;
+    top: 0;
 }
 
 #know:hover{
@@ -195,6 +199,7 @@ article{
     transition: 0.3s;
     background-color: white;
     margin: 0 5%;
+    height: 250px;
 }
 
 
@@ -480,10 +485,18 @@ footer p{
           width: 30%;
       }
 
-      footer p{
-          position: relative;
-          top:90px;
-      }
+      article{
+        margin-top: 15%;
+    }
+
+    .smallp{
+        width: 60%;
+    }
+
+    footer p{
+        position: relative;
+        top:90px;
+    }
 
       .RL{
           float: left;
@@ -564,18 +577,19 @@ footer p{
     }
 
     article{
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .bigp{
-        font-size: 35px;
         letter-spacing: 8px;
+        font-size: 30px;
     }
 
     .smallp{
-        margin-right:10% ;
-        margin-top: 5%;
-        line-height: 2em;
+        margin-right:8%;
+        margin-left: 25px;
+        line-height: 1.8em;
+        width: 80%;
     }
 
     footer{
@@ -611,6 +625,16 @@ footer p{
 
     article{
         margin-top: 30%;
+    }
+
+    .bigp{
+        line-height: 1.8em;
+        font-size: 25px;
+    }
+
+    .smallp{
+        margin-top: 0;
+        line-height: 1.8em;
     }
 
     footer{
