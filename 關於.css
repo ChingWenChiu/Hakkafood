@@ -101,14 +101,13 @@ footer p{
     color: white;
     font-weight: 400;
     position: relative;
-    top: 20px;
 }
 
 .RL{
-    float: right;
     position: relative;
     bottom: 50px;
-    right: 200px;
+    margin-top: 2%;
+    left: 50px;
 }
 
 .RL a{
@@ -128,7 +127,8 @@ footer p{
 #logo2{
     position: absolute;
     right: 200px;
-    width: 3%;
+    top:273vh;
+    width: 4%;
 }
 
 /*響應式 css*/
@@ -298,7 +298,7 @@ h3 {
     position: absolute;
     font-size: 25px;
     text-align: center;
-    margin: 0px 20px;
+    margin: 0px 50px;
     color: rgb(143, 143, 143);
     top: 30%;
     left: 59%;
@@ -312,11 +312,11 @@ h3 {
     left: 55%;
     z-index: 1;
     font-size: 18px;
-    text-align: center;
     color: rgb(143, 143, 143);
     letter-spacing: 3px;
     width: 26%;
-    text-indent: 36px;
+    text-indent: 42px;
+    line-height: 1.5em;
 }
 
 .rec1 {
@@ -335,8 +335,7 @@ h5 {
     padding-top: 90%;
     padding-left: 6%;
     font-size: 19px;
-    letter-spacing: 3px;
-    z-index: ;
+    letter-spacing: 2px;
 }
 .img3 {
     position: absolute;
@@ -384,11 +383,6 @@ h5 {
     box-shadow: 3px 3px 8px rgb(170, 170, 170);
 }
 
-.intro:hover {
-    box-shadow: 5px 5px 15px rgb(126, 126, 126);
-    transition: 0.5s;
-}
-
 .photo{
     margin-top: 20px;
     text-align: center;
@@ -404,11 +398,6 @@ h5 {
     margin:20px;
     box-shadow: 3px 3px 8px rgb(170, 170, 170);
 }
-.introD:hover{
-    box-shadow: 5px 5px 15px rgb(126, 126, 126);
-    transition: 0.5s;
-}
-
 
 h6 {
     font-size: 18px;

@@ -85,14 +85,13 @@ footer p{
     color: white;
     font-weight: 400;
     position: relative;
-    top: 20px;
 }
 
 .RL{
-    float: right;
     position: relative;
     bottom: 50px;
-    right: 200px;
+    margin-top: 2%;
+    left: 50px;
 }
 
 .RL a{
@@ -104,6 +103,7 @@ footer p{
     transition: 0.3s;
     font-size: 16px;
 }
+
 .RL a:hover{
     color:#555;
 }
@@ -111,7 +111,8 @@ footer p{
 #logo2{
     position: absolute;
     right: 200px;
-    width: 3%;
+    top:298vh;
+    width: 4%;
 }
 
 /* 四炆色塊 */
@@ -119,7 +120,8 @@ footer p{
     position: relative;
     height: 30%;
     display: block;
-    padding: 200px 200px 200px 200px;
+    /* padding: 15%; */
+    height: 60vh;
     text-align: center;
     background-image: url(四炆.jpg);
     background-repeat: no-repeat;
@@ -131,15 +133,22 @@ footer p{
 .mainh1 {
     letter-spacing: 2px;
     font-size: 25px;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 18vh;
 }
 
 /* 四炆下字體 */
 .mainp {
     letter-spacing: 2px;
     font-size: 18px;
-    margin-top: 20px;
     text-align: center;
     line-height: 30px;
+    width: 60%;
+    margin: 20px auto 0;
+    position: relative;
+    top: 22vh;
 }
 
 /* 左右括號 */
@@ -168,6 +177,47 @@ footer p{
 }
 
 
+/* 主要內容 */
+/* 主要內容 */
+/* 主要內容 */
+.mainContent {
+    margin: auto;
+    padding:100px;
+}
+
+.mainBox {
+    width: 80%;
+    height: 320px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: rgb(255, 221, 221);
+    padding: 25px;
+    position: relative;
+    box-shadow: 2px 2px 10px rgb(156, 156, 156);
+    position: relative;
+}
+
+.imgHere {
+    width: 35%;
+}
+
+.mainH4 {
+    position: absolute;
+    top:20%;
+    left: 40%;
+    font-size: 20px;font-weight: 300;
+    font-weight: 500;
+}
+
+.mainP {
+    width: 55%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.5;
+}
 
 @media screen and (max-width:1000px) {
     
@@ -257,9 +307,53 @@ footer p{
     .navbar a{
         font-size: 20px;
     }
-    
-    #logo2{
-        width: 20%;
+
+    .rectan1{
+        top:15%;
+    }
+    .rectan2{
+        bottom: 8%;
+    }
+
+    .main{
+        height: 100vh;
+    }
+
+    .mainh1{
+        width: 60%;
+        top: 25vh;
+    }
+
+    .mainp{
+        top: 35vh;
+    }
+
+    .mainContent{
+        padding: 25px;
+    }
+
+    .imgHere{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .mainBox{
+        height: 550px;
+    }
+
+    .mainBox:nth-of-type(3){
+        height: 650px;
+    }
+
+    .mainH4{
+        top: 25%;
+        left: 30%;
+    }
+
+    .mainP{
+        width: 80%;
+        left: 15%;
+        top: 35%;
     }
 
     footer{
@@ -267,70 +361,29 @@ footer p{
     }
     
     footer p{
-        top:130px;
         padding-left: 10px;
+        position: relative;
+        bottom: 50px;
     }
 
     .RL{
-        bottom: 20px;
-        left: 50px;
-        
+        top: 12px;
+        left: 38px;
+        float: none;
     }
 
+    .RL a{
+        font-size: 12px;
+    }
+
+    .RL p{
+        font-size: 12px;
+        padding-left: 0;
+        top: 0;
+    }
     #logo2{
         width: 12%;
-        top:307vh;
+        top:575vh;
         right: 50px;
     }
-}
-
-
-
-
-
-/* 主要內容 */
-/* 主要內容 */
-/* 主要內容 */
-.mainContent {
-    margin: auto;
-    padding:100px;
-}
-
-.mainBox {
-    width: 80%;
-    height: 320px;
-    margin: 50px auto;
-    border-radius: 5px;
-    background-color: rgb(255, 221, 221);
-    padding: 25px;
-    position: relative;
-    box-shadow: 2px 2px 10px rgb(156, 156, 156);
-    position: relative;
-}
-.mainBox:hover {
-    box-shadow: 5px 5px 15px rgb(156, 156, 156);
-    transition: 0.3s;
-}
-
-.imgHere {
-    width: 35%;
-    height: 200px;  
-}
-
-.mainH4 {
-    position: absolute;
-    top:20%;
-    left: 40%;
-    font-size: 20px;font-weight: 300;
-    font-weight: 500;
-}
-
-.mainP {
-    width: 55%;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    letter-spacing: 2px;
-    font-weight: 300;
-    line-height: 1.5;
 }

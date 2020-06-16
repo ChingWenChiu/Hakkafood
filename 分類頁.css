@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-position: 0% 0%;
     opacity: 0.9;
-    
 }
 
 .pink p {
@@ -52,16 +51,7 @@
     font-weight: 250;
 }
 
-/* .asshole:hover{
-    box-shadow: 5px 5px 15px rgb(149, 149, 149);
-} */
-
-.white a {
-    
-}
-
 .img1{
-  
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -175,14 +165,13 @@ footer p{
     color: white;
     font-weight: 400;
     position: relative;
-    top: 20px;
 }
 
 .RL{
-    float: right;
     position: relative;
     bottom: 50px;
-    right: 200px;
+    margin-top: 2%;
+    left: 50px;
 }
 
 .RL a{
@@ -202,7 +191,8 @@ footer p{
 #logo2{
     position: absolute;
     right: 200px;
-    width: 3%;
+    top:205vh;
+    width: 4%;
 }
 
 /*響應式 css*/
@@ -271,18 +261,11 @@ footer p{
 
       #logo2{
           width: 5%;
-          top:310vh;
           right: 200px;
       }
 }
 
 @media screen and (max-width:700px) {
-
-    #logo2{
-        width: 7%;
-        top:308vh;
-        right: 100px;
-    }
 
     .RL{
         left: 50px;
@@ -297,10 +280,36 @@ footer p{
     .navbar a{
         font-size: 20px;
     }
-    
-    #logo2{
-        width: 20%;
-        top:322vh;
+
+    .img1{
+        width: 80px;
+        height: 80px;
+    }
+
+    .img2{
+        width: 80px;
+        height: 80px;
+    }
+
+    .asshole h3{
+        font-size: 18px;
+    }
+
+    .pink{
+        background-image: url(圖片12.jpg);
+        background-position: 50% ;
+    }
+
+    .text1{
+        font-size: 20px;
+        margin-top: 40%;
+    }
+
+    .text2{
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 30% ;
+        width: 80%;
     }
 
     footer{
@@ -308,19 +317,30 @@ footer p{
     }
     
     footer p{
-        top:130px;
         padding-left: 10px;
+        position: relative;
+        bottom: 50px;
     }
 
     .RL{
-        bottom: 20px;
-        left: 50px;
-        
+        top: 12px;
+        left: 38px;
+        float: none;
+    }
+
+    .RL a{
+        font-size: 12px;
+    }
+
+    .RL p{
+        font-size: 12px;
+        padding-left: 0;
+        top: 0;
     }
 
     #logo2{
         width: 12%;
-        top:307vh;
+        top:175vh;
         right: 50px;
     }
 }
