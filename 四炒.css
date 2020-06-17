@@ -78,6 +78,7 @@ footer{
     background-color:#8aa0be ;
     overflow: hidden;
     padding:50px 100px;
+    position: relative;
 }
 
 footer p{
@@ -110,7 +111,7 @@ footer p{
 #logo2{
     position: absolute;
     right: 200px;
-    top:265vh;
+    top:28%;
     width: 4%;
 }
 
@@ -199,7 +200,7 @@ footer p{
 
 .mainBox {
     width: 80%;
-    height: 250px;
+    height: 320px;
     margin: 50px auto;
     border-radius: 5px;
     background-color: rgb(255, 221, 221);

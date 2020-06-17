@@ -371,7 +371,7 @@ footer p{
     }
 
     .mainBox{
-        height: 550px;
+        height: 500px;
     }
 
     .mainBox:nth-child(3){
@@ -387,6 +387,10 @@ footer p{
         left: 30%;
     }
 
+    #mainH4_1{
+        top: 40%;
+    }
+
     #mainH4_4{
         left: 39%;
     }
@@ -395,6 +399,10 @@ footer p{
         width: 80%;
         left: 15%;
         top: 35%;
+    }
+
+    #mainP_1{
+        top: 50%;
     }
 
     footer{
