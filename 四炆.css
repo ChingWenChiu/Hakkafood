@@ -358,6 +358,7 @@ footer p{
 
     footer{
         padding: 0;
+        position: relative;
     }
     
     footer p{
@@ -383,7 +384,8 @@ footer p{
     }
     #logo2{
         width: 12%;
-        top:575vh;
+        position: absolute;
         right: 50px;
+        top:28%;   
     }
 }

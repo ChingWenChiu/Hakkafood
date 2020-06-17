@@ -314,11 +314,6 @@ footer p{
 }
 
 @media screen and (max-width:400px) {
-    #logo2{
-        width: 20%;
-        top:322vh;
-    }
-    
     .rectan1{
         top:15%;
     }
@@ -360,7 +355,7 @@ footer p{
     }
 
     .mainBox:nth-of-type(1){
-        height: 750px;
+        height: 660px;
     }
 
     .mainBox:nth-of-type(2){
@@ -368,8 +363,12 @@ footer p{
     }
 
     .mainH4{
-        top: 30%;
+        top: 33%;
         left: 40%;
+    }
+
+    #mainH4_1{
+        top: 27%;
     }
 
     .mainP{
@@ -378,8 +377,13 @@ footer p{
         top: 40%;
     }
 
+    #mainP_1{
+        top: 35%;
+    }
+
     footer{
         padding: 0;
+        position: relative;
     }
     
     footer p{
@@ -406,7 +410,8 @@ footer p{
 
     #logo2{
         width: 12%;
-        top:498vh;
+        position: absolute;
         right: 50px;
+        top:28%;   
     }
 }

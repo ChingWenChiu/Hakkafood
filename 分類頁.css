@@ -297,7 +297,8 @@ footer p{
 
     .pink{
         background-image: url(圖片12.jpg);
-        background-position: 50% ;
+        background-position:50% ;
+        height: 100vh;
     }
 
     .text1{
@@ -310,10 +311,12 @@ footer p{
         margin: 0 auto;
         margin-top: 30% ;
         width: 80%;
+        text-shadow: 2px 2px 2px #333;
     }
 
     footer{
         padding: 0;
+        position: relative;
     }
     
     footer p{
@@ -340,7 +343,8 @@ footer p{
 
     #logo2{
         width: 12%;
-        top:175vh;
+        position: absolute;
         right: 50px;
+        top:28%;   
     }
 }

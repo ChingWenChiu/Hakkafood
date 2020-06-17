@@ -598,6 +598,7 @@ a{
 
     footer{
         padding: 0;
+        position: relative;
     }
     
     footer p{
@@ -624,7 +625,8 @@ a{
 
     #logo2{
         width: 12%;
-        top:653vh;
+        position: absolute;
         right: 50px;
+        top:28%;   
     }
 }

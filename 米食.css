@@ -370,33 +370,59 @@ footer p{
     .imgHere{
         width: 80%;
         margin: 0 auto;
+        height: 150px;
     }
 
     .mainBox{
-        height: 500px;
+        height: 450px;
     }
 
     .mainBox:nth-of-type(2){
-        height: 600px;
+        height: 580px;
     }
 
     .mainBox:nth-of-type(4){
-        height: 650px;
+        height: 550px;
     }
 
     .mainH4{
-        top: 35%;
+        top: 43%;
         left: 40%;
+    }
+
+    #mainH4_2{
+        top:30%;
+    }
+
+    #mainH4_3{
+        top: 30%;
+    }
+
+    #mainH4_4{
+        top: 25%;
     }
 
     .mainP{
         width: 80%;
         left: 15%;
-        top: 43%;
+        top: 50%;
+    }
+
+    #mainP_2{
+        top:38%;
+    }
+
+    #mainP_3{
+        top: 38%;
+    }
+
+    #mainP_4{
+        top: 33%;
     }
 
     footer{
         padding: 0;
+        position: relative;
     }
     
     footer p{
@@ -423,7 +449,8 @@ footer p{
 
     #logo2{
         width: 12%;
-        top:665vh;
+        position: absolute;
         right: 50px;
+        top:28%;   
     }
 }

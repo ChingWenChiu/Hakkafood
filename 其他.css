@@ -387,6 +387,10 @@ footer p{
         left: 30%;
     }
 
+    #mainH4_4{
+        left: 39%;
+    }
+
     .mainP{
         width: 80%;
         left: 15%;
@@ -395,6 +399,7 @@ footer p{
 
     footer{
         padding: 0;
+        position: relative;
     }
     
     footer p{
@@ -420,8 +425,9 @@ footer p{
     }
 
     #logo2{
+        position: absolute;
         width: 12%;
-        top:605vh;
+        top:28%;
         right: 50px;
     }
 }

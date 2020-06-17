@@ -471,6 +471,7 @@ footer p{
         overflow-x: hidden;
       }
 
+      
       .navbar a{
         display: block;
         border: none;
@@ -478,7 +479,6 @@ footer p{
         margin-top:10%;
         font-size: 25px;
       }
-
       .navbar a:nth-of-type(5){
         border: none;
       }
@@ -678,9 +678,9 @@ footer p{
     }
 
     .qabox{
-        height: 75vh;
+        height: 85vh;
         margin-top: 40px;
-        padding-top: 15px;
+        padding: 15px 0;
     }
 
     .question{
@@ -705,13 +705,9 @@ footer p{
         margin-top: 0;
     }
 
-    .next{
-        position: relative;
-        bottom:-55px;
-    }
-
     footer{
         padding: 0;
+        position: relative;;
     }
     
     footer p{
@@ -737,7 +733,8 @@ footer p{
 
     #logo2{
         width: 12%;
-        top:307vh;
+        position: absolute;
         right: 50px;
+        top:28%;   
     }
 }
