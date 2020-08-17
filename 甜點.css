@@ -73,7 +73,7 @@ nav a:hover{
 }
 
 footer{
-    height: 25vh;
+    height: auto;
     background-color:#8aa0be ;
     overflow: hidden;
     padding:50px 100px;
